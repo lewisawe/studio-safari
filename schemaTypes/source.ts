@@ -48,6 +48,14 @@ export const source = defineType({
       validation: (Rule) => Rule.required().uri({ scheme: ["http", "https"] }),
     }),
     defineField({
+      name: "excerpt",
+      title: "Excerpt",
+      type: "text",
+      rows: 4,
+      description:
+        "Synthetic prose excerpt of the source (read by the Knowledge Base build). Not real award pricing.",
+    }),
+    defineField({
       name: "synthetic",
       title: "Synthetic",
       type: "boolean",

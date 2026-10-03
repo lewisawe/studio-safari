@@ -57,14 +57,14 @@
               }
             ]
           },
-          "optional": false
+          "optional": true
         },
         "chosenPointsCost": {
           "type": "objectAttribute",
           "value": {
             "type": "number"
           },
-          "optional": false
+          "optional": true
         },
         "chosenSource": {
           "type": "objectAttribute",
@@ -72,14 +72,14 @@
             "type": "inline",
             "name": "source.reference"
           },
-          "optional": false
+          "optional": true
         },
         "rationale": {
           "type": "objectAttribute",
           "value": {
             "type": "string"
           },
-          "optional": false
+          "optional": true
         }
       }
     }
@@ -102,7 +102,7 @@
           "value": {
             "type": "number"
           },
-          "optional": false
+          "optional": true
         },
         "source": {
           "type": "objectAttribute",
@@ -110,21 +110,21 @@
             "type": "inline",
             "name": "source.reference"
           },
-          "optional": false
+          "optional": true
         },
         "effectiveDate": {
           "type": "objectAttribute",
           "value": {
             "type": "string"
           },
-          "optional": false
+          "optional": true
         },
         "label": {
           "type": "objectAttribute",
           "value": {
             "type": "string"
           },
-          "optional": false
+          "optional": true
         }
       }
     }
@@ -199,7 +199,7 @@
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "contradiction": {
         "type": "objectAttribute",
@@ -207,7 +207,7 @@
           "type": "inline",
           "name": "contradiction.reference"
         },
-        "optional": false
+        "optional": true
       },
       "chosenClaim": {
         "type": "objectAttribute",
@@ -224,14 +224,14 @@
             }
           ]
         },
-        "optional": false
+        "optional": true
       },
       "chosenPointsCost": {
         "type": "objectAttribute",
         "value": {
           "type": "number"
         },
-        "optional": false
+        "optional": true
       },
       "chosenSource": {
         "type": "objectAttribute",
@@ -239,21 +239,21 @@
           "type": "inline",
           "name": "source.reference"
         },
-        "optional": false
+        "optional": true
       },
       "decidedAt": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "rationale": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       }
     }
   },
@@ -327,7 +327,7 @@
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "subjectEntry": {
         "type": "objectAttribute",
@@ -335,7 +335,7 @@
           "type": "inline",
           "name": "awardChartEntry.reference"
         },
-        "optional": false
+        "optional": true
       },
       "claimA": {
         "type": "objectAttribute",
@@ -343,7 +343,7 @@
           "type": "inline",
           "name": "claim"
         },
-        "optional": false
+        "optional": true
       },
       "claimB": {
         "type": "objectAttribute",
@@ -351,14 +351,14 @@
           "type": "inline",
           "name": "claim"
         },
-        "optional": false
+        "optional": true
       },
       "explanation": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "status": {
         "type": "objectAttribute",
@@ -375,7 +375,7 @@
             }
           ]
         },
-        "optional": false
+        "optional": true
       },
       "committedResolution": {
         "type": "objectAttribute",
@@ -390,7 +390,7 @@
         "value": {
           "type": "boolean"
         },
-        "optional": false
+        "optional": true
       }
     }
   },
@@ -465,21 +465,21 @@
           "type": "inline",
           "name": "program.reference"
         },
-        "optional": false
+        "optional": true
       },
       "origin": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "destination": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "cabin": {
         "type": "objectAttribute",
@@ -504,21 +504,21 @@
             }
           ]
         },
-        "optional": false
+        "optional": true
       },
       "pointsCost": {
         "type": "objectAttribute",
         "value": {
           "type": "number"
         },
-        "optional": false
+        "optional": true
       },
       "taxesUsd": {
         "type": "objectAttribute",
         "value": {
           "type": "number"
         },
-        "optional": false
+        "optional": true
       },
       "sourceRef": {
         "type": "objectAttribute",
@@ -526,21 +526,21 @@
           "type": "inline",
           "name": "source.reference"
         },
-        "optional": false
+        "optional": true
       },
       "effectiveDate": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "synthetic": {
         "type": "objectAttribute",
         "value": {
           "type": "boolean"
         },
-        "optional": false
+        "optional": true
       }
     }
   },
@@ -615,7 +615,7 @@
           "type": "inline",
           "name": "pointsCurrency.reference"
         },
-        "optional": false
+        "optional": true
       },
       "toProgram": {
         "type": "objectAttribute",
@@ -623,21 +623,21 @@
           "type": "inline",
           "name": "program.reference"
         },
-        "optional": false
+        "optional": true
       },
       "ratio": {
         "type": "objectAttribute",
         "value": {
           "type": "number"
         },
-        "optional": false
+        "optional": true
       },
       "transferTimeHours": {
         "type": "objectAttribute",
         "value": {
           "type": "number"
         },
-        "optional": false
+        "optional": true
       },
       "sourceRef": {
         "type": "objectAttribute",
@@ -645,14 +645,14 @@
           "type": "inline",
           "name": "source.reference"
         },
-        "optional": false
+        "optional": true
       },
       "synthetic": {
         "type": "objectAttribute",
         "value": {
           "type": "boolean"
         },
-        "optional": false
+        "optional": true
       }
     }
   },
@@ -696,21 +696,21 @@
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "name": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "synthetic": {
         "type": "objectAttribute",
         "value": {
           "type": "boolean"
         },
-        "optional": false
+        "optional": true
       }
     }
   },
@@ -754,21 +754,21 @@
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "name": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "synthetic": {
         "type": "objectAttribute",
         "value": {
           "type": "boolean"
         },
-        "optional": false
+        "optional": true
       }
     }
   },
@@ -812,7 +812,7 @@
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "authority": {
         "type": "objectAttribute",
@@ -837,7 +837,7 @@
             }
           ]
         },
-        "optional": false
+        "optional": true
       },
       "publishedDate": {
         "type": "objectAttribute",
@@ -851,14 +851,21 @@
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
+      },
+      "excerpt": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": true
       },
       "synthetic": {
         "type": "objectAttribute",
         "value": {
           "type": "boolean"
         },
-        "optional": false
+        "optional": true
       }
     }
   },
@@ -996,21 +1003,21 @@
           "value": {
             "type": "number"
           },
-          "optional": false
+          "optional": true
         },
         "width": {
           "type": "objectAttribute",
           "value": {
             "type": "number"
           },
-          "optional": false
+          "optional": true
         },
         "aspectRatio": {
           "type": "objectAttribute",
           "value": {
             "type": "number"
           },
-          "optional": false
+          "optional": true
         }
       }
     }
@@ -1108,28 +1115,28 @@
           "value": {
             "type": "number"
           },
-          "optional": false
+          "optional": true
         },
         "y": {
           "type": "objectAttribute",
           "value": {
             "type": "number"
           },
-          "optional": false
+          "optional": true
         },
         "height": {
           "type": "objectAttribute",
           "value": {
             "type": "number"
           },
-          "optional": false
+          "optional": true
         },
         "width": {
           "type": "objectAttribute",
           "value": {
             "type": "number"
           },
-          "optional": false
+          "optional": true
         }
       }
     }
@@ -1152,28 +1159,28 @@
           "value": {
             "type": "number"
           },
-          "optional": false
+          "optional": true
         },
         "bottom": {
           "type": "objectAttribute",
           "value": {
             "type": "number"
           },
-          "optional": false
+          "optional": true
         },
         "left": {
           "type": "objectAttribute",
           "value": {
             "type": "number"
           },
-          "optional": false
+          "optional": true
         },
         "right": {
           "type": "objectAttribute",
           "value": {
             "type": "number"
           },
-          "optional": false
+          "optional": true
         }
       }
     }
@@ -1253,35 +1260,35 @@
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "extension": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "mimeType": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "size": {
         "type": "objectAttribute",
         "value": {
           "type": "number"
         },
-        "optional": false
+        "optional": true
       },
       "assetId": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "uploadId": {
         "type": "objectAttribute",
@@ -1295,14 +1302,14 @@
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "url": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "source": {
         "type": "objectAttribute",
@@ -1426,35 +1433,35 @@
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "extension": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "mimeType": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "size": {
         "type": "objectAttribute",
         "value": {
           "type": "number"
         },
-        "optional": false
+        "optional": true
       },
       "assetId": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "uploadId": {
         "type": "objectAttribute",
@@ -1468,14 +1475,14 @@
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "url": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "metadata": {
         "type": "objectAttribute",
@@ -1550,7 +1557,7 @@
           "value": {
             "type": "string"
           },
-          "optional": false
+          "optional": true
         },
         "source": {
           "type": "objectAttribute",
